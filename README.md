@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 
 | Category | Stack |
 | :--- | :--- |
-| **Languages** | Kotlin, Swift, SQL |
+| **Languages** | Kotlin, SQLite |
 | **Frameworks** | Jetpack Compose, Compose Multiplatform, KMP SDK |
 | **Architecture** | MVVM, Clean Architecture, Nav3 |
 | **DI & Networking** | Constructor Injection, OkHttp, Retrofit, Ktor |
@@ -31,30 +31,24 @@ Here are some ideas to get you started:
 <br>
 
 ## 🚀 Featured Projects
-1. **SharedVault**: Multi-User Gallery (KMP)
-<br>
-🔭 I’m currently working on ...
-<br>
-<b>A cross-platform solution for private group image sharing.
-<b>Tech</b>: Kotlin Multiplatform, Firebase, Firestore.
-- **Key Feature**: Implements a secure authentication flow using JWT and refresh tokens via a custom OkHttp Authenticator.\
-- **Scale** : Architected to support synchronized galleries for small private groups with real-time updates.
-<br>
+**🖼️ SharedVault: Multi-User Gallery (KMP)**
+*A secure, cross-platform image sharing solution for private groups.*
+
+*   **Tech:** Kotlin Multiplatform (KMP), Firebase Storage, Firestore
+*   **Secure Auth:** Implements a **Custom OkHttp Authenticator** to handle JWT 401/403 error flows and automated token refresh logic.
+*   **Networking:** Utilizes Ktor for multiplatform API requests and shared business logic across Android and iOS.
+*   **Storage:** To handle ~25 concurrent users with real-time Firestore synchronization and Firebase Storage access rules.
 <br>
 
-2. **CinemaScope**:
-  <br>
-  A Modern Movie Discovery App
-  <br>
-  <br>
-  - A deep dive into high-performance media fetching and modern UI.
-    <br>
-  - **Tech**: Jetpack Compose, TMDB/OMDb API integration.
-    <br>
-  - **Challenge**: Implementing seamless backdrop transitions and handling complex recompositions.
-    <br>
-  - **Outcome**: A fluid, gesture-driven UI that manages high-resolution image caching and real-time search.
+### 🎬 CinemaScope: Movie Discovery App
+*A high-performance Android application focusing on modern media architecture.*
+*  **Tech** Android Jetpack Compose for UI with 
+*  **Networking** Utilized Retrofit
+*  **Storage** Room, for local retrival only as signle source of truth
 
+
+
+[View Project](https://github.com/snaqviApps/CinemaScope)
 
 
 
