@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 <br>
 
 
-🛠 **Technical Ecosystem**
+## 🛠 Technical Ecosystem
 
 | Category | Stack |
 | :--- | :--- |
@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 <br>
 
 ## 🚀 Featured Projects
-**🖼️ SharedVault: Multi-User Gallery (KMP)**
+### 🖼️ SharedVault: Multi-User Gallery (KMP)
 *A secure, cross-platform image sharing solution for private groups.*
 
 *   **Tech:** Kotlin Multiplatform (KMP), Firebase Storage, Firestore
