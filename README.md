@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 | Category | Stack |
 | :--- | :--- |
-| **Languages** | Kotlin, SQLite |
+| **Languages** | Kotlin, Python, Java, C++ |
 | **Frameworks** | Jetpack Compose, Compose Multiplatform, KMP SDK |
 | **Architecture** | MVVM, Clean Architecture, Nav3 |
 | **DI & Networking** | Constructor Injection, OkHttp, Retrofit, Ktor |
