@@ -41,7 +41,7 @@ Here are some ideas to get you started:
 *   **Storage:** To handle ~25 concurrent users with real-time Firestore synchronization and Firebase Storage access rules.
 <br>
 
-### 🎬 : Custom Native Video Engine (C++ / JNI / ExoPlayer)
+### 🎬 Custom Android NDK Video Engine (C++ / JNI / ExoPlayer)
 * Engineered a high-performance, zero-copy video decoding pipeline bridging AndroidX Media3 (ExoPlayer) with native C++ hardware decoders*
 
 *  **Zero-Copy GPU Rendering:** Bound native AMediaCodec instances directly to Android Surface (ANativeWindow) components via JNI, achieving 60fps
