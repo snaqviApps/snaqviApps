@@ -41,15 +41,24 @@ Here are some ideas to get you started:
 *   **Storage:** To handle ~25 concurrent users with real-time Firestore synchronization and Firebase Storage access rules.
 <br>
 
-### 🎬 CinemaScope: Movie Discovery App
-*A high-performance Android application focusing on modern media architecture.*
-*  **Tech** Android Jetpack Compose for UI with 
-*  **Networking** Utilized Retrofit
-*  **Storage** Room, for local retrival only as signle source of truth
+### 🎬 : Custom Native Video Engine (C++ / JNI / ExoPlayer)
+* Engineered a high-performance, zero-copy video decoding pipeline bridging AndroidX Media3 (ExoPlayer) with native C++ hardware decoders*
 
+*  **Zero-Copy GPU Rendering:** Bound native AMediaCodec instances directly to Android Surface (ANativeWindow) components via JNI, achieving 60fps
+   playback with zero CPU overhead for YUV-to-RGB pixel conversion.
+   
+*  **Precision Synchronization:** Implemented strict 8-byte memory alignment in C++ to extract and pass 64-bit hardware
+   timestamps (presentationTimeUs) up to Kotlin, locking native frame rendering perfectly to ExoPlayer's master audio clock.
+   
+*  **Dynamic Playback Control:** Bridged ExoPlayer's internal buffer states to native C++ commands, executing real-time hardware memory
+   flushes for zero-latency timeline scrubbing and instant seek recovery.
 
+*  **Resilient Memory Management:** Designed a robust C++ buffer recycling architecture that securely manages ExoPlayer's 16-frame
+   maximum memory pool, preventing hardware starvation, memory leaks, and MediaServer double-free corruptions.
 
-[View Project](https://github.com/snaqviApps/CinemaScope)
+     
+
+[View Project](https://github.com/snaqviApps/MoviesApp)
 
 
 
