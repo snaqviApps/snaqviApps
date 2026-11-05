@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 <br>
 
-### PCI Monot
+
 
 ## 🛠 Technical Ecosystem
 
@@ -33,6 +33,15 @@ Here are some ideas to get you started:
 <br>
 
 ## 🚀 Featured Projects
+
+# <img src="Image_bn91nybn91nybn91.png" width="36" height="36" align="absmiddle" /> PCI_Monitor
+
+* **`PCI_Monitor`**: Master umbrella repository coordinating a real-time PCIe hardware telemetry and diagnostics architecture.
+* **`pci-diagnostics` (Backend)**: Native C++ core that queries Linux `sysfs` registers and exports optimized interop functions compiled into a shared `.so` library.
+* **`KMP-FrontEnd` (UI)**: Kotlin Multiplatform client utilizing JNA and Jetpack Compose to render live multi-device telemetry tables across Desktop and Android environments.
+<br>
+<br>
+
 ### 🖼️ SharedVault: Multi-User Gallery (KMP)
 *A secure, cross-platform image sharing solution for private groups.*
 
