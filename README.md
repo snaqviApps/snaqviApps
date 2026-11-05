@@ -18,10 +18,7 @@ Here are some ideas to get you started:
 
 <br>
 
-# PCI Diagnostics Bench
-Real-time PCIe hardware telemetry metrics and platform-specific UI state collection.
-[Explore the repository](https://github.com/snaqviApps/PCI_Monitor.git)
-
+### PCI Monot
 
 ## 🛠 Technical Ecosystem
 
