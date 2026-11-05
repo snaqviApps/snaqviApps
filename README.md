@@ -34,7 +34,7 @@ Here are some ideas to get you started:
 
 ## 🚀 Featured Projects
 
-### <img src="Image_repo_icon.png" width="36" height="36" align="absmiddle" /> PCI_Monitor
+### <img width="35" height="32" alt="image" src="https://github.com/user-attachments/assets/9df66119-ce5b-4eb7-a46a-8618df504759" /> PCI Monitor
 
 * **`PCI_Monitor`**: Master umbrella repository coordinating a real-time PCIe hardware telemetry and diagnostics architecture.
 * **`pci-diagnostics` (Backend)**: Native C++ core that queries Linux `sysfs` registers and exports optimized interop functions compiled into a shared `.so` library.
