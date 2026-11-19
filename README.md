@@ -29,6 +29,9 @@ Here are some ideas to get you started:
 | **Architecture** | MVVM, Clean Architecture, Nav3 |
 | **DI & Networking** | Constructor Injection, OkHttp, Retrofit, Ktor |
 | **Storage/Cloud** | Firebase, Firestore, Room |
+| **Languages** | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=snaqviApps&layout=compact)  |
+
+
 <br>
 <br>
 
@@ -70,6 +73,3 @@ Here are some ideas to get you started:
 
      
    [View Project](https://github.com/snaqviApps/MoviesApp)
-
-
-   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact) 
