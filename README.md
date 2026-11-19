@@ -72,4 +72,4 @@ Here are some ideas to get you started:
    [View Project](https://github.com/snaqviApps/MoviesApp)
 
 
-
+   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact) 
